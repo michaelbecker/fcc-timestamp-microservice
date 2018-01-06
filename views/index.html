@@ -1,0 +1,63 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>FreeCodeCamp Timestamp Microservice Project</title>
+    <meta name="description" content="FreeCodeCamp Timestamp Microservice Project">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <header>
+      <h1>
+        FreeCodeCamp Timestamp Microservice Project
+      </h1>
+    </header>
+
+    <main>
+      <h2>User Stories</h2>
+      <ol>
+        <li>I can pass a string as a parameter, and it will check to see whether
+          that string contains either a unix timestamp or a natural language date 
+          (example: January 1, 2016).</li>
+        <li>If it does, it returns both the Unix timestamp and the natural language form of that date.</li>
+        <li>If it does not contain a date or Unix timestamp, it returns null for those properties.</li>
+      </ol>
+      
+      <h2>
+        Examples
+      </h2>
+      <ul>
+        <li><a href="./1450137600">Passing in a Unix Timestamp (1450137600 seconds from the epoch)</a></li>
+        <li><a href="./December%2015,%202015">Passing in a date string (December 15, 2015)</a></li>
+      </ul>
+      
+      <h2>
+        References
+      </h2>
+      <p>
+        <a href="https://timestamp-ms.herokuapp.com/"
+           target="_blank">
+          Example project from FreeCodeCamp</a>
+      </p>
+    </main>
+
+    <footer>
+      <a href="https://www.freecodecamp.org/challenges/timestamp-microservice"
+         target="_blank">
+        FreeCodeCamp Timestamp Microservice Project
+      </a>
+    </footer>
+
+    <!-- Your web-app is https, so your scripts need to be too -->
+    <script src="https://code.jquery.com/jquery-2.2.1.min.js"
+            integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00="
+            crossorigin="anonymous"></script>
+    <script src="/client.js"></script>
+
+  </body>
+</html>
